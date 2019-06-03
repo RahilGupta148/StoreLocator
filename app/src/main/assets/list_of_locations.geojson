@@ -1,0 +1,405 @@
+﻿{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REVA University Gate",
+        "hours": "6am - 5pm",
+        "phone": "(555) 555-4355",
+        "description": "Location #1 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+        77.634223,
+        13.11728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Food Court",
+        "hours": "6am - 5pm",
+        "phone": "(555) 555-4355",
+        "description": "Location #1 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+        77.636717,
+        13.11588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "C.V. Raman Block",
+        "hours": "9am - 4pm",
+        "phone": "(555) 555-9430",
+        "description": "Location #2 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.634839,
+          13.116799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Visveshwaraya Block",
+        "hours": "10am - 8pm",
+        "phone": "(555) 555-4839",
+        "description": "Location #3 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.634936, 
+          13.115525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Swami Vivekanand Block",
+        "hours": "8am - 5:30pm",
+        "phone": "(555) 555-1989",
+        "description": "Location #4 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.634963,
+          13.114908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Central Library",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.635301,
+          13.114762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Admin Block",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.634759,
+          13.113858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Science Block",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.635381,
+          13.114151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls hostel 2",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.636041,
+          13.114297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atithi Grah",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.636256,
+          13.114323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guest House",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.636486,
+          13.114344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Hostel",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.637066,
+          13.11495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Staff Quarters",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.636599,
+          13.114686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girls Mess",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.636749,
+          13.114892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Open amphi theatre",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.635242,
+          13.115107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boys Hostel C-block",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.636079,
+          13.114887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boys Hostel D-block",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.636653,
+          13.115331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REVA Play Ground",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.636159,
+          13.116434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Mess",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.635993,
+          13.115734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Mess",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.636266,
+          13.115284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boys Hostel A-Block",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.636041,
+          13.115572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boys Hostel B-Block",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.636073,
+          13.115195
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Nandini Parlour",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.635826,
+          13.11483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Faculty Parking",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.635108,
+          13.117489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Admission Office",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.634512,
+          13.117353
+        ]
+      }
+    }
+  ]
+}
