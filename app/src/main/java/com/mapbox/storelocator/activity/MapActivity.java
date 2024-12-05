@@ -130,6 +130,7 @@ import android.view.MenuItem;
 /**
  * Activity with a Mapbox map and recyclerview to view various locations
  */
+const string store-location-source-id;
 public class MapActivity extends AppCompatActivity implements OnMapReadyCallback,
         MapboxMap.OnMapClickListener, PermissionsListener,LocationRecyclerViewAdapter.ClickListener {
 
@@ -166,7 +167,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     private CustomThemeManager customThemeManager;
     private LocationRecyclerViewAdapter styleRvAdapter;
     private int chosenTheme;
-    private static LocationRecyclerViewAdapter.ClickListener clickListener;
+ 
 
 
     private DrawerLayout dl;
@@ -218,7 +219,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 int id = item.getItemId();
                 switch (id) {
                     case R.id.food_court:
-//            clickListener.onItemClick(getLayoutPosition());
+
 //          clickListener.onItemClick(());
                         Toast.makeText(MapActivity.this, "Food court", Toast.LENGTH_SHORT).show();
 
@@ -381,8 +382,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         Point destinationPoint = Point.fromLngLat(point.getLongitude(), point.getLatitude());
         Point originPoint = Point.fromLngLat(locationComponent.getLastKnownLocation().getLongitude(),
                 locationComponent.getLastKnownLocation().getLatitude());
-//
-//        GeoJsonSource source = mapboxMap.getStyle().getSourceAs("destination-source-id");
+
 //        if (source != null) {
 //            source.setGeoJson(Feature.fromGeometry(destinationPoint));
 //        }
@@ -552,7 +552,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         }
 
         // Reposition the map camera target to the selected marker
-        if (selectedLocation != null) {
+        if (selectedLocation != null && selectedLocation != '\0') {
             repositionMapCamera(selectedLocationPoint);
         }
 
@@ -745,7 +745,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                     iconIgnorePlacement(true)
             ));
         } else {
-            throw new IllegalStateException("Style isn't ready yet.");
+            throw new IllegalStateException("Please wait...");
         }
     }
 
